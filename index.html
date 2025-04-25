@@ -19,7 +19,7 @@
     width: 100%;
     height: 300px;
     background-color: #cacaca;
-    z-index: -1;
+    z-index: 9999;
   }
   #logo {
     position: fixed;
@@ -27,10 +27,12 @@
     height: 200px;
     left: 25px;
     top: 25px;
+    z-index: 9999;
   }
   #augsa {
     position: fixed;
     left: 300px;
+    z-index: 9999;
   }
   #augsa a {
     margin-right: 15px;
@@ -61,7 +63,29 @@
     position: absolute;
     top: 450px;
     width: 500px;
-    right: 100px;
+    right: 50px;
+  }
+  .internetveikals {
+    position: absolute;
+    top: 1000px;
+    right: 50px;
+    text-align: right;
+  }
+  #internetveikals_nosaukums {
+    
+    font-family: "Lexend";
+    font-size: 60px;
+  }
+  #text3 {
+    font-family: 'Lexend';
+    font-size: 28px;
+  }
+  #internetveikals_bilde {
+    position: absolute;
+    width: 500px;
+    top: 1000px;
+    left: 50px;
+    
   }
 </style>
 <body>
@@ -80,8 +104,20 @@
   <h1 id="text1">Jūsu jaunais dators jūs jau gaida!</h1>
   <h3 id="text2">Mēs veicam datoru komplektēšanu pēc pasūtījuma. <br> Sazinieties ar mums un mēs saliksim jūsu datoru, <br> pēc jūsu vēlmēm, 3 - 5 darba dienu laikā.</h3>  
   <img id="dators1" src="gaming-computer-6903836_1920.jpg">
-  
-  
+
+  <div class="internetveikals">
+    <h2 id="internetveikals_nosaukums">Internetveikals</h2>
+    <h3 id="text3">Ja vēlies pats likt kopā savu datoru, <br> tad mēs piedāvājam plašu datorkomponenšu klāstu, <br> no kura tu varēsi izvēlēties sev piemērotākās.</h3>
+    
+  </div>
+  <img id="internetveikals_bilde" src="e-commerce-3692440_1280.jpg">
+
+  <div class="kvalitate">
+    <h2 id="kvalitate_nosaukums"
+
+      <h1> Čau, Maija</h2>
+  </div>
+ 
   <script src="script.js"></script>
 </body>
 
