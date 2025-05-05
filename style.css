@@ -1,7 +1,144 @@
 html {
   height: 100%;
   width: 100%;
+  .header-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    background-color: #cacaca;
+    z-index: 9999;
+  }
+  #logo {
+    position: fixed;
+    width: 200px;
+    height: 200px;
+    left: 25px;
+    top: 25px;
+    z-index: 9999;
+  }
   #augsa {
-    top: 100px;
+    position: fixed;
+    left: 300px;
+    z-index: 9999;
+  }
+  #augsa a {
+    margin-right: 15px;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 35px;
+    display: inline-block;
+  }
+  #pieslegties {
+    width: 220px
+  }
+  #text1 {
+    position: absolute;
+    top: 400px;
+    left: 50px;
+    font-family: 'Lexend', sans-serif;
+    font-size: 60px;
+
+  }
+  #text2 {
+    position: absolute;
+    top: 550px;
+    left: 50px;
+    font-family: "Lexend";
+    font-size: 28px;
+  }
+  #dators1 {
+    position: absolute;
+    top: 450px;
+    width: 500px;
+    right: 50px;
+  }
+  .internetveikals {
+    position: absolute;
+    top: 800px;
+    right: 50px;
+    text-align: right;
+  }
+  #internetveikals_nosaukums {
+
+    font-family: "Lexend";
+    font-size: 60px;
+  }
+  #text3 {
+    font-family: 'Lexend';
+    font-size: 28px;
+  }
+  #internetveikals_bilde {
+    position: absolute;
+    width: 500px;
+    top: 800px;
+    left: 50px;
+
+  }
+  .kvalitate {
+    position: absolute;
+    top: 1200px;
+    left: 50px
+  }
+  #kvalitate_nosaukums {
+
+    font-family: "Lexend";
+    font-size: 60px;
+  }
+  #text4 {
+    font-family: 'Lexend';
+    font-size: 28px;
+  }
+  #kvalitate_bilde {
+    position: absolute;
+    top: 1200px;
+    right: 50px;
+    width: 500px;
+  }
+  .piegade {
+    position: absolute;
+    top: 1600px;
+    right: 50px;
+    text-align: right;
+  }
+  #piegade_nosaukums {
+    font-family: "Lexend";
+    font-size: 60px;
+  }
+  #text5 {
+    font-family: 'Lexend';
+    font-size: 28px;
+  }
+  #piegade_bilde {
+    position: absolute;
+    top: 1600px;
+    left: 50px;
+    width: 500px;
+  }
+  .sauklis {
+    position: absolute;
+    top: 2000px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #jauda {
+    font-family: "Lexend";
+    font-size: 60px;
+  }
+  #text6 {
+    font-family: 'Lexend';
+    font-size: 28px;
+  }
+  #sauklis_bilde {
+    position: absolute;
+    top: 2400px;
+    width: 500px;
+    left: 50%;
+    transform: translateX(-50%);
   }
 }
