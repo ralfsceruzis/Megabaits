@@ -141,4 +141,9 @@ html {
     left: 50%;
     transform: translateX(-50%);
   }
+  #galerija_nosaukums {
+    top: 1000px;
+    font-family: "Lexend";
+    font-size: 60px;
+  }
 }
