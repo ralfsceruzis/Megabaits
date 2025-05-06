@@ -41,5 +41,32 @@
   <p id="copyright_galerija">© Copyright Megabaits 2025</p>
   <p id="adrese_galerija">Kantora iela 97</p>
   <script src="script.js"></script>
+  <div id="login-modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <div class="tabs">
+        <button class="tab-btn active" data-tab="login">Pieslēgties</button>
+        <button class="tab-btn" data-tab="signup">Reģistrēties</button>
+      </div>
+      <div id="login" class="tab-content active">
+        <h2>Pieslēgties</h2>
+        <form>
+          <input type="email" placeholder="E-pasts" required>
+          <input type="password" placeholder="Parole" required>
+          <button type="submit">Pieslēgties</button>
+        </form>
+      </div>
+      <div id="signup" class="tab-content">
+        <h2>Reģistrēties</h2>
+        <form>
+          <input type="text" placeholder="Vārds" required>
+          <input type="email" placeholder="E-pasts" required>
+          <input type="password" placeholder="Parole" required>
+          <input type="password" placeholder="Apstiprināt paroli" required>
+          <button type="submit">Reģistrēties</button>
+        </form>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
