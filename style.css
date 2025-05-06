@@ -151,7 +151,25 @@ html {
   }
   .galerija_bildes {
     position: absolute;
-    
-    
+    top: 450px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    width: 90%;
+    max-width: 1200px;
+  }
+  
+  .galerija_bildes img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+  }
+  
+  .galerija_bildes img:hover {
+    transform: scale(1.05);
   }
 }
