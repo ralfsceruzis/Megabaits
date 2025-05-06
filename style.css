@@ -149,11 +149,9 @@ html {
     font-family: "Lexend";
     font-size: 60px;
   }
-  #galerija_bildes {
+  .galerija_bildes {
     position: absolute;
-    width: 300px;
-    flex: display;
-    flex-direction: row;
-    justify-content: space-around;
+    
+    
   }
 }
