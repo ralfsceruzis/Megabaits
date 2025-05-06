@@ -31,7 +31,9 @@ html {
     display: inline-block;
   }
   #pieslegties {
-    width: 220px
+    position: relative;
+    top: 25px;
+    width: 220px;
   }
   #text1 {
     position: absolute;
@@ -158,18 +160,64 @@ html {
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
     width: 90%;
-    max-width: 1200px;
+    max-width: 1600px;
   }
-  
   .galerija_bildes img {
     width: 100%;
     height: 250px;
     object-fit: cover;
     border-radius: 8px;
-    transition: transform 0.3s ease;
   }
-  
-  .galerija_bildes img:hover {
-    transform: scale(1.05);
+  .footer-bg {
+    position: absolute;
+    top: 2800px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #cacaca;
+    z-index: 9999;
+  }
+  #copyright {
+    position: absolute;
+    top: 2800px;
+    z-index: 10000;
+    transform: translateX(-50%);
+    left: 50%;
+  }
+  #adrese {
+    position: absolute;
+    top: 2830px;
+    transform: translateX(-50%);
+    left: 50%;
+    z-index: 10000;
+  }
+  .footer-bg_galerija {
+    position: absolute;
+    top: 2000px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #cacaca;
+    z-index: 9999;
+  }
+  #copyright_galerija {
+    position: absolute;
+    top: 2000px;
+    z-index: 10000;
+    transform: translateX(-50%);
+    left: 50%;
+  }
+  #adrese_galerija {
+    position: absolute;
+    top: 2030px;
+    transform: translateX(-50%);
+    left: 50%;
+    z-index: 10000;
+  }
+  #video {
+    position: absolute;
+    top: 1400px;
+    left: 50%;
+    transform: translateX(-50%);
   }
 }
