@@ -124,21 +124,21 @@ html {
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    
   }
   #jauda {
     font-family: "Lexend";
     font-size: 60px;
   }
   #text6 {
+    position: absolute;
     font-family: 'Lexend';
     font-size: 28px;
+    top: 80%;
   }
   #sauklis_bilde {
     position: absolute;
-    top: 2400px;
+    top: 2350px;
     width: 500px;
     left: 50%;
     transform: translateX(-50%);
