@@ -233,11 +233,11 @@ html {
   }
 
   .modal-content {
-    background-color: #cacaca;
+    background-color: #b0b0b0;
     margin: 15% auto;
-    padding: 20px;
+    padding: 40px;
     width: 400px;
-    border-radius: 8px;
+    border-radius: 0;
     position: relative;
   }
 
@@ -290,10 +290,10 @@ html {
   }
 
   .modal-content button {
-    padding: 10px;
-    background: #8a8a8a;
+    padding: 10px 30px;
+    background: #000080;
     border: none;
-    border-radius: 4px;
+    border-radius: 20px;
     color: white;
     cursor: pointer;
     font-family: "Lexend";
@@ -301,6 +301,12 @@ html {
   }
 
   .modal-content button:hover {
-    background: #757575;
+    background: #000066;
+  }
+
+  .galerija_bildes p {
+    text-align: center;
+    margin-top: 10px;
+    font-family: "Lexend";
   }
 }
