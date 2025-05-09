@@ -21,6 +21,7 @@ html {
   #augsa {
     position: fixed;
     left: 300px;
+    top: 25px;
     z-index: 9999;
   }
   #augsa a {
