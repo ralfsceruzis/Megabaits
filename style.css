@@ -164,7 +164,7 @@ html {
 
   .bildes img {
     max-width: 800px;
-    max-height: 600px;
+    max-height: 400px;
     object-fit: contain;
   }
 
@@ -193,7 +193,7 @@ html {
   }
   .footer-bg_galerija {
     position: absolute;
-    top: 2000px;
+    top: 1600px;
     left: 0;
     width: 100%;
     height: 100px;
@@ -202,21 +202,21 @@ html {
   }
   #copyright_galerija {
     position: absolute;
-    top: 2000px;
+    top: 1600px;
     z-index: 10000;
     transform: translateX(-50%);
     left: 50%;
   }
   #adrese_galerija {
     position: absolute;
-    top: 2030px;
+    top: 1630px;
     transform: translateX(-50%);
     left: 50%;
     z-index: 10000;
   }
   #video {
     position: absolute;
-    top: 1400px;
+    top: 1000px;
     left: 50%;
     transform: translateX(-50%);
   }
