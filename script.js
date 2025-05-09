@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const loginBtn = document.getElementById('pieslegties');
   const closeBtn = document.querySelector('.close');
   const tabBtns = document.querySelectorAll('.tab-btn');
-  
+
   loginBtn.addEventListener('click', () => {
     modal.style.display = 'block';
   });
@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
       // Remove active class from all buttons and contents
       tabBtns.forEach(b => b.classList.remove('active'));
       document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
-      
+
       // Add active class to clicked button and corresponding content
       btn.classList.add('active');
       document.getElementById(btn.dataset.tab).classList.add('active');
