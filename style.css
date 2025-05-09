@@ -153,6 +153,20 @@ html {
   }
   
   
+  .bildes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 400px;
+    height: 600px;
+  }
+
+  .bildes img {
+    max-width: 800px;
+    max-height: 600px;
+    object-fit: contain;
+  }
+
   .footer-bg {
     position: absolute;
     top: 2800px;
